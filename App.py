@@ -5,7 +5,7 @@ import plotly.express as px
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = Dash(__name__, external_stylesheets=external_stylesheets)
-
+server = app.server
 
 df = pd.read_csv('https://raw.githubusercontent.com/Vivek-84/Dashd/main/data11a.csv')
 
